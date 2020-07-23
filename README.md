@@ -17,5 +17,11 @@
 
 <code>echo $scraper->Sunrise;</code>
 
-I think you should use an
-`<addr>` element here instead.
+You can use below properties
+* `<Fajr>` 
+* `<Sunrise>` 
+* `<Dhuhr>` 
+* `<Asr>` 
+* `<Maghrib>` 
+* `<Isha>` 
+
