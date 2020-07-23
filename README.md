@@ -6,10 +6,8 @@
 
 #### Usage
 
-``use sajidh\prayerscraper\Prayer;
+<code>use sajidh\prayerscraper\Prayer;
 
 $scraper = new Prayer;
 $scraper->collection();
-echo $scraper->Sunrise;``
-
-
+echo $scraper->Sunrise;</code>
