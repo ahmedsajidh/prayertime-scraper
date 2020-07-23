@@ -17,7 +17,7 @@
 
 <code>echo $scraper->Sunrise;</code>
 
-Prayer times properties
+Prayer times 
 * `Fajr` 
 * `Sunrise` 
 * `Dhuhr` 
