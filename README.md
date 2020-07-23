@@ -7,7 +7,9 @@
 #### Usage
 
 <code>use sajidh\prayerscraper\Prayer;</code>
-
+<br />
 <code>$scraper = new Prayer;</code>
+<br />
 <code>$scraper->collection();</code>
+<br />
 <code>echo $scraper->Sunrise;</code>
