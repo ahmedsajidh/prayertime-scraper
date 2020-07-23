@@ -17,11 +17,11 @@
 
 <code>echo $scraper->Sunrise;</code>
 
-You can use below properties
-* `<Fajr>` 
-* `<Sunrise>` 
-* `<Dhuhr>` 
-* `<Asr>` 
-* `<Maghrib>` 
-* `<Isha>` 
+Prayer times properties
+* `Fajr` 
+* `Sunrise` 
+* `Dhuhr` 
+* `Asr` 
+* `Maghrib` 
+* `Isha` 
 
