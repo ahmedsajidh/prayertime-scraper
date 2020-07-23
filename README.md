@@ -5,12 +5,11 @@
 </code></pre>
 
 #### Usage
-***
 `use sajidh\prayerscraper\Prayer;
 
 $scraper = new Prayer;
 $scraper->collection();
 echo $scraper->Sunrise;`
 
-***
+
 
