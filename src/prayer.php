@@ -1,6 +1,5 @@
 <?php
-
-namespace sajidh\prayerscraper;
+namespace Sajidh\Prayerscraper;
 
 require '../vendor/autoload.php';
 
