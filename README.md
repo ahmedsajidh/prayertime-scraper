@@ -1,27 +1,28 @@
 # prayertime-scraper
- scrapes data from www.islamicfinder.org/  _this is Experimental Project_
+
+scrapes data from www.islamicfinder.org/ _this is Experimental Project_
+
 #### Installation
-<pre><code>composer require sajidh/prayertime-scraper
-</code></pre>
+
+```
+composer require sajidh/prayertime-scraper
+```
 
 #### Usage
 
-<code>use sajidh\prayerscraper\Prayer;</code>
-<br />
+```php
+use Sajidh\Prayerscraper\Prayer;
 
-<code>$scraper = new Prayer;</code>
-<br />
+$scraper = new Prayer();
 
-<code>$scraper->collection();</code>
-<br />
+echo $scraper->Fajr;
+```
 
-<code>echo $scraper->Sunrise;</code>
+Prayer times
 
-Prayer times 
-* `Fajr` 
-* `Sunrise` 
-* `Dhuhr` 
-* `Asr` 
-* `Maghrib` 
-* `Isha` 
-
+- `Fajr`
+- `Sunrise`
+- `Dhuhr`
+- `Asr`
+- `Maghrib`
+- `Isha`
