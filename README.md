@@ -10,7 +10,7 @@ composer require sajidh/prayertime-scraper
 
 #### Usage
 
-```
+```php
 use Sajidh\Prayerscraper\Prayer;
 
 $scraper = new Prayer();
