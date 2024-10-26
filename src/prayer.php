@@ -2,11 +2,11 @@
 
 namespace Sajidh\Prayerscraper;
 
-use Symfony\Component\DomCrawler\Crawler;
 use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * prayertime web scraper
+ * prayertime web scraper.
  */
 class Prayer
 {
@@ -17,19 +17,17 @@ class Prayer
     public $Maghrib;
     public $Isha;
 
-
     public function __construct()
     {
         $client = new Client();
         $response = $client->request('GET', 'https://www.islamicfinder.org/world/maldives/1282027/male-prayer-times');
-        $crawler = new Crawler((string)$response->getBody());
+        $crawler = new Crawler((string) $response->getBody());
 
         $this->collection($crawler);
     }
 
     protected function collection($crawler)
     {
-
         $prayerTime = $crawler->filter('span.prayertime')->each(function ($node) {
             return $node->text();
         });
